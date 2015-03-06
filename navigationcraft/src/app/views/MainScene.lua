@@ -8,13 +8,7 @@ function MainScene:onCreate()
         :addTo(self)
 
     -- add play button
-    local playButton = cc.MenuItemImage:create("PlayButton.png", "PlayButton.png")
-        :onClicked(function()
-            self:getApp():enterScene("PlayScene")
-        end)
-    cc.Menu:create(playButton)
-        :move(display.cx, display.cy - 200)
-        :addTo(self)
+   
 end
 
 return MainScene
