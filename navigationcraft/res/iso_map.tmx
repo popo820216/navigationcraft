@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="64" height="64" tilewidth="64" tileheight="48" nextobjectid="1">
+ <tileset firstgid="1" name="263.0" tilewidth="64" tileheight="48">
+  <image source="../Downloads/IsoGame/assets/maps/map1/263.0.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="2" name="block" tilewidth="64" tileheight="48">
+  <image source="../Downloads/IsoGame/assets/maps/map1/block.png" width="64" height="48"/>
+  <tile id="0">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="grass" tilewidth="64" tileheight="48">
+  <image source="../Downloads/IsoGame/assets/maps/map1/grass.png" width="64" height="48"/>
+ </tileset>
+ <layer name="bg" width="64" height="64">
+  <properties>
+   <property name="cc_vertexz" value="自动"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DwQkAAAwDoYPsv3PH6EfBVVNVVVVVVVVVVVVVVVVVVVVfH73hYN0AQAAA
+  </data>
+ </layer>
+ <layer name="Pathfinding" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DsQ0AAAwCIOP/R9svukBCAgAAAAAAAAAAAAAAAAAAAHzqHQ0aXQEAQAAA
+  </data>
+ </layer>
+</map>
